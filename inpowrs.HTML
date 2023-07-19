@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inpowr. com</title>
+    <style>
+        @font-face {
+            font-family: MuseoSansRounded500;
+            src: url(assest/fontfamily/MuseoSansRounded500.otf);
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: MuseoSansRounded700;
+            src: url(assest/fontfamily/MuseoSansRounded-700.otf)
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .sectionb1 {
+            background-color: #ff7814;
+        }
+
+        .e1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            max-width: 1530px;
+            margin: 0 auto;
+        }
+
+        .wrapper {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: flex-start;
+
+
+        }
+
+        .col2 {
+            width: 50%;
+            display: flex;
+        }
+
+        .bas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 50%;
+            list-style-type: none;
+            padding: 0px;
+            color: white;
+            margin-left: 110px;
+            font-family: MuseoSansRounded500;
+            font-size: 16px;
+        }
+
+        .wrapperblack {
+            display: flex;
+            /* width: 50%; */
+        }
+
+        .col {
+            width: 50%;
+            display: flex;
+        }
+
+
+        .f2 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            /* justify-content: space-around; */
+            list-style-type: none;
+            /* padding: 10px 0px 10px 0px */
+            justify-content: flex-end;
+            align-items: center;
+            /* margin-right: 20px; */
+            margin-left: 30px;
+
+
+        }
+
+        .l1 {
+            display: flex;
+        }
+
+        .l2 {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .img {
+            width: 100%;
+        }
+
+        /* .col2 b c d  { */
+        /* display: flex; */
+        /* padding: 0px; */
+        /* text-decoration: none; */
+        /* flex-wrap: wrap; */
+        /* } */
+
+        .a {
+            color: #ffffff;
+            margin-top: 12px;
+            font-family: MuseoSansRounded500;
+            font-size: 15px;
+            margin-right: 20px;
+            list-style-type: none;
+
+
+        }
+
+        .b {
+            background-color: #ffffff;
+            border: 8px solid #ffffff;
+            border-radius: 40px;
+            color: #ff7814;
+            font-family: MuseoSansRounded500;
+            font-size: 12px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-top: 10px;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+
+        .c {
+            background-color: #ff7814;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 40px;
+            margin-right: 20px;
+            font-family: MuseoSansRounded500;
+            font-size: 12px;
+            padding: 8px 18px 8px 18px;
+            margin-top: 10px;
+            list-style-type: none;
+
+        }
+
+        .d {
+            background-color: #ff7814;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+            border-radius: 50px;
+            margin-right: 20px;
+            padding: 8px 19px 8px 19px;
+            font-family: MuseoSansRounded500;
+            font-size: 12px;
+            margin-top: 10px;
+            list-style-type: none;
+
+        }
+
+        .e {
+            color: #ffffff;
+            margin-right: 90px;
+            font-family: MuseoSansRounded500;
+            font-size: 16px;
+            margin-top: 10px;
+            list-style-type: none;
+        }
+
+        .img {
+            width: 100%;
+            /* padding: 0px; */
+            margin-left: 68px;
+            /* padding: 10px; */
+        }
+
+        .image-wrapper {
+            width: 150px;
+        }
+
+        /* first section end ............................................................................................................... */
+        .sectionb {
+            background-image: url(assest/images/accueil-3.png);
+            padding-top: 32px;
+            background-size: 1630px;
+        }
+
+        .rowb {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 32px;
+            margin-right: 90px;
+            margin-left: 90px;
+            max-width: 1280px;
+        }
+
+        .left {
+            width: 48%;
+            /* margin-right: 30px; */
+        }
+
+        .right {
+            width: 48%;
+        }
+
+        .imge {
+            width: 100%;
+        }
+
+        .g {
+            font-size: 50px;
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+
+        }
+
+        .f {
+            margin-bottom: 15px;
+            font-family: MuseoSansRounded500;
+            font-size: 13px;
+            color: #5f5f5f;
+            letter-spacing: 4px;
+
+        }
+
+        .h {
+            font-size: 16px;
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+            margin-top: 30px;
+            line-height: 30px;
+        }
+
+        .wrapperb {
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+
+        .bgmi {
+            background-color: #ffffff;
+            border: 1px solid #ffffff;
+            color: #5f5f5f;
+            border-radius: 30px;
+            padding: 17px 40px;
+            font-family: MuseoSansRounded500;
+            margin-top: 40px;
+            transition: 0.5s;
+
+        }
+
+        .line {
+            background-color: #ffffff;
+            width: 400px;
+            height: 2px;
+            margin-top: 25px;
+        }
+
+        .bgmi:hover {
+            background-color: #ff7814;
+            color: #ffffff;
+            border: 1px solid #ff7814;
+
+        }
+
+        /* third section start........................................................................................................ */
+        .sectionc {
+            background-color: #ffffff;
+            padding: 64px 0px 64px 0px;
+        }
+
+        .rowc {
+            padding: 64px;
+            margin: 0px 180px 0px 180px;
+            max-width: 1280px;
+        }
+
+        .up {
+            font-family: MuseoSansRounded500;
+            font-size: 24pt;
+            color: #555555;
+            /* text-align: center; */
+            width: 100%;
+            justify-content: center;
+            padding-bottom: 40px;
+
+        }
+
+        .down {
+            width: 100%;
+            /* padding-top: 20px; */
+        }
+
+        .imgc {
+            width: 100%;
+            height: auto;
+        }
+
+        .rowy {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0px 0px;
+            margin: 0px 158.297px;
+            max-width: 1280px;
+        }
+
+        .b1 {
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            padding-bottom: 14px;
+            line-height: 20px;
+        }
+
+        .b2 {
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+            letter-spacing: 0.5px;
+            /* padding-bottom: 14px; */
+            line-height: 20px;
+            font-size: 13px;
+        }
+
+        .b3 {
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+            letter-spacing: 0.5px;
+            padding-bottom: 14px;
+            line-height: 20px;
+            font-size: 13px;
+        }
+
+        .b4 {
+            font-family: MuseoSansRounded500;
+            color: #5f5f5f;
+            letter-spacing: 0.5px;
+            /* padding-bottom: 14px; */
+            line-height: 20px;
+            font-size: 13px;
+        }
+
+        .text {
+            font-weight: 800;
+        }
+
+        .wrappery {
+            margin: 0px 29px 0px 32px;
+        }
+
+        .wrapperz {
+            margin-right: 22px;
+            margin-left: 45px;
+        }
+
+        /* 4 section start........................................................................................................................ */
+
+        .sectiond {
+            padding: 64px 0px;
+            background-color: #414141;
+        }
+
+        .rowd {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .d1 {
+            width: 28%;
+            margin-right: 4.5%;
+        }
+
+        .d2 {
+            width: 28%;
+            margin-right: 4.5%;
+        }
+
+        .d3 {
+            width: 28%;
+        }
+
+        .imgd1 {
+            width: 88%;
+            margin-left: 25px;
+            margin-bottom: 10px;
+        }
+
+        .imgd2 {
+            width: 80%;
+            padding: 0px 10px 29px 10px;
+
+        }
+
+        .imgd3 {
+            width: 80%;
+        }
+
+        .h1d {
+            color: #808080;
+            font-family: MuseoSansRounded500;
+            font-size: 24pt;
+            text-align: center;
+            margin-bottom: 13px;
+            margin-left: 0%;
+        }
+
+        .pd {
+            font-weight: bold;
+            font-family: MuseoSansRounded500;
+            color: #ffffff;
+            font-size: 12pt;
+            text-align: center;
+            line-height: 25px;
+            /* letter-spacing: 2px; */
+            margin-left: -2%;
+        }
+
+        .a1 {
+            color: #ffffff;
+            font-family: MuseoSansRounded500;
+            font-size: 24pt;
+            text-align: center;
+
+        }
+
+        .bb {
+            width: 1280px;
+            height: 76px;
+            margin: 0 auto;
+        }
+
+        .wrapperbb {
+            width: 100%;
+        }
+
+        /* new section start .............................................................................................................> */
+
+        .sectione {
+            background-color: #EDE9E5;
+            padding: 64px 0px 64px 0px;
+        }
+
+        .rowz1 {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 1280px;
+            margin: 0 auto;
+            padding: 30px 0px 30px 0px;
+        }
+
+        .colz1 {
+            width: 47%;
+        }
+
+        .colz3 {
+            width: 47%;
+        }
+
+        .hz {
+            font-family: MuseoSansRounded500;
+            color: #555555;
+            text-align: left;
+            font-size: 32px;
+
+        }
+
+        .a1 {
+            margin-right: 32px;
+        }
+
+        .rowy1 {
+            width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .coly {
+            width: 47%;
+        }
+
+        .y2 {
+            margin-left: 38px;
+        }
+
+        .imgy {
+            width: 82%;
+        }
+
+        .rowy2 {
+            width: 1280px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            padding-top: 65px;
+        }
+
+        .colyy {
+            width: 45%;
+            margin-right: 70px;
+        }
+
+        .imgyy {
+            width: 27px;
+            height: 27px;
+            margin-right: 10px;
+        }
+
+        .r {
+            font-family: MuseoSansRounded500;
+            font-size: 16px;
+            color: #5f5f5f;
+            margin-bottom: 30px;
+        }
+
+        .h1 {
+            margin-bottom: 15px;
+            font-size: 16px;
+            font-family: MuseoSansRounded500;
+            margin-top: 30px;
+            color: #414141;
+
+        }
+
+        .t1 {
+            line-height: 30px;
+            margin-right: 40px;
+        }
+
+        .p7 {
+            color: #ff7814;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="sectionb1">
+
+        <div class="row e1">
+            <div class="col">
+                <div class="wrapper">
+                    <div class="image-wrapper">
+                        <img src="assest/images/site-logo.png" alt="" class="img">
+                    </div>
+
+                    <ul class="ul l1">
+                        <li class="bas f1">Benefit</li>
+                        <li class="bas f2">Company</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="wrapperblack">
+                    <ul class="ul l2">
+                        <li class="div a">Download now</li>
+                        <li><button class="div b"> Request a Demo </button></li>
+                        <li><button class="div c"> FAQ </button></li>
+                        <li><button class="div d"> LOGIN </button></li>
+                        <li class="div e">FR</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- first section end .................................................................................................................../ -->
+
+    <section class="sectionb">
+        <div class="rowb">
+            <div class="col left">
+                <div class="wrapperb">
+                    <p class="div f">EMPLOYEE BENEFIT PROGRAM OPTIMIZATION </p>
+                    <h1 class="div g ">The data and direction you need to truly help your employees. </h1>
+                    <div class="line"></div>
+                    <p class="div h">inpowr identifies the areas where your employees most need help and directs them to
+                        your resources to improve your health and wellness program. </p>
+                    <div class="htm"><a href="#" target="main"><button class="bgmi">Request a demo </button></a></div>
+                </div>
+            </div>
+            <div class="col right">
+                <div class="wrapperblueb"><img class="imge" src="assest/images/mandala_en.png" alt="img"></div>
+            </div>
+        </div>
+    </section>
+    <!-- second section end ......................................................................................................................... -->
+    <section class="sectionc">
+        <div class="rowc">
+            <div class="col up">
+                <div class="wrapperc">
+                    <p class="c1">A solution to optimize your employee assistance programs</p>
+                </div>
+            </div>
+            <div class="col down"><img src="assest/images/inpowr_dashboard_en.png" alt="" class="imgc"></div>
+        </div>
+        <div class="rowy">
+            <div class="col y">
+                <div class="wrappery">
+                    <p class="b1">inpowr marks a new starting point for your employees’ health and well-being journey,
+                        with a <span class="text">solution that can easily be integrated into your existing programs to
+                            maximize effectiveness and ROI.</span>Our team will customize the use of your EAPs,
+                        your group insurance,
+                        your mental health programs and any other employee support resources you offer. </p>
+                    <p class="b2">The value lies in our digital tools that continuously identify the personal and
+                        professional concerns that affect the overall well-being of your employees,
+                        wherever they are. They are then referred to the right help resources in your programs,
+                        at the right time,
+                        for their health and wellness needs. </p>
+                </div>
+            </div>
+            <div class="col z">
+                <div class="wrapperz">
+                    <p class="b3">Our professionals also support management and managers throughout the deployment of
+                        inpowr,
+                        whether to develop your various organizational surveys,
+                        analyze and interpret your inpowr data or take advantage of our health and wellness consulting
+                        services </p>
+                    <p class="b4">The inpowr approach thus makes it possible to observe the aspects of life most at risk
+                        among your employees and to better target interventions in order to measure their impact on the
+                        organization throughout the year. Take preventive action and fight presenteeism before it’s too
+                        late. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- third section start.................................................................................................... -->
+
+    <section class="sectiond">
+
+        <div class="row bb">
+            <div class="wrapperbb">
+                <h1 class="h1 a1">We optimize your benefit programs</h1>
+            </div>
+        </div>
+        <div class="rowd">
+            <div class="col d1">
+
+                <div class="wrapperd">
+                    <img src="assest/images/programmes_1.png" alt="" class="imgd1">
+                    <h1 class="h1d">
+                        Improving
+                        <br>
+                        navigation
+                    </h1>
+                    <p class="pd">
+                        inpowr can integrate with existing programs to maximize their use and understand the customer’s
+                        reality. Group insurance – EAP – mental health assistance and other employee support
+                        resources</p>
+                </div>
+            </div>
+            <div class="col d1 ">
+                <div class="wrapperd1"><img src="assest/images/employes.png" alt="" class="imgd1">
+                    <h1 class="h1d">Guiding
+                        <br>
+                        employees
+                    </h1>
+                    <p class="pd">inpowr gives your employees the tools they need to measure their state of well-being,
+                        be guided in exploring solutions and be directed to the right resources. </p>
+                </div>
+            </div>
+            <div class="col d1">
+                <div class="wrapperd2"><img src="assest/images/employeurs.png" alt="" class="imgd1">
+                    <h1 class="h1d">Supporting
+                        <br>
+                        employers
+                    </h1>
+                    <p class="pd">inpowr can identify the most at-risk aspects of your employees’ personal situations to
+                        better
+                        target support efforts and accurately measure their impact on your organization. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- new section start ........................................................................................................................> -->
+
+    <section class="sectione">
+        <div class="rowz1">
+            <div class="colz1">
+                <div class="wrapperz1">
+                    <h1 class=" hz a1">
+                        An application offering your employees all the necessary tools to take charge of their
+                        well-being
+
+                    </h1>
+                </div>
+
+            </div>
+            <div class="colz3">
+                <div class="wrapperz2">
+                    <h1 class="hz a2">
+                        Continuous evidence-based and accurate performance indicators for your organization
+                    </h1>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="rowy1">
+            <div class="coly y1">
+                <div class="wrappery1">
+                    <img src="assest/images/1-2.png" alt="" class="imgy y9">
+                </div>
+            </div>
+            <div class="coly y2">
+                <div class="wrappery2">
+                    <img src="assest/images/2-2 (1).png" alt="" class="imgy y8">
+                </div>
+            </div>
+        </div>
+        <div class="rowy2">
+            <div class="colyy y2">
+                <div class="wrappery2">
+                    <p class="r t1">
+                        Give them access to the first self-coaching application designed to reconnect you with your
+                        mind, body and spirit, and to achieve a better balance, both in personal and professional life.
+
+
+                    </p>
+                    <h1 class=" h1 r1">
+                        The application allows your employees:
+                    </h1>
+                    <p class="r t1">
+                    <p class="r t3">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        to measure their state of well-being;
+                    </p>
+                    <p class="r t4">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        to be guided in the exploration of solutions;
+                    </p>
+                    <p class="r t5">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        to be referred to the right resources for help and support; and
+                    </p>
+                    <p class="r t6">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        to evaluate the impact of their actions on their day-to-day well-being.
+                    </p>
+                    <p class="r p7">
+                        View the tutorial video
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="colyy y3">
+                <div class="wrappery3">
+                    <p class="r t1">
+                        inpowr gives you access to daily data and insights to help drive your business decisions. You
+                        can gain critical insight into those areas of life that are most at risk among your employees so
+                        you can intervene in relevant and effective ways.
+                    </p>
+                    <h1 class="h1 r2">
+                        The inpowr platform enables your organization:
+                    </h1>
+                    <p class="r t9">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        To obtain a continuous picture of the well-being of your employees;
+                    </p>
+                    <p class="r t10">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        To identify the concerns that affect them on 30 aspects of life;
+                    </p>
+                    <p class="r t12">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+                        To offer more personalized assistance and support services; and
+                    </p>
+                    <p class="r t13">
+                        <img src="assest/images/tick-icon.png" alt="" class=" imgyy">
+
+                        To obtain a clearer view and insight into how managing change impacts your people.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html
